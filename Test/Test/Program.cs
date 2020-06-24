@@ -21,8 +21,8 @@ namespace Test
             string str =DateAndTimeFormat.TimeNowToMillisecond();
             string str1 = DateAndTimeFormat.HourAdd(str,2);
             DateTime dt = parseDate(str);
-            //string str2 = DateTime.Now.AddHours(25).ToString();
-            Console.WriteLine("当前时间：" + dt);
+            string str2 = DateTime.Now.AddHours(25).ToString();
+            Console.WriteLine("当前时间：" + str2);
             Console.ReadLine();
         }
         public static string TimeNow()
